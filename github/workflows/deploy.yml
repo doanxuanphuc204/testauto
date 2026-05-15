@@ -19,10 +19,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
 
           script: |
-            cd ~/home/noithatgoo/testauto
-
+            cd /home/noithatgoo/testauto
             git pull origin main
-
-        
-
-            cp -r dist/* ~/home/noithatgoo/testauto
